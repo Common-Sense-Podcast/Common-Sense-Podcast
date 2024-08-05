@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #782F40; /* Florida State garnet */
-    color: #CEB888; /* Florida State gold */
+    background-color: #f4f4f4;
+    color: #333;
     margin: 0;
     padding: 0;
 }
@@ -13,18 +13,32 @@ body {
 }
 
 header {
-    background-color: #CEB888;
-    color: #782F40;
-    padding: 20px 0;
+    background-color: #782F40; /* Florida State garnet */
+    color: #CEB888; /* Florida State gold */
+    padding: 40px 0;
     text-align: center;
 }
 
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
 main {
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 section {
     margin-bottom: 40px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .about p {
@@ -35,8 +49,8 @@ section {
 .host-info {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
     text-align: left;
 }
 
@@ -44,19 +58,23 @@ section {
     max-width: 100%;
     height: auto;
     border: 5px solid #CEB888;
-    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+    max-width: 300px;
 }
 
-h1, h2 {
-    color: #CEB888;
+.host-info p {
+    flex: 1;
+    margin: 0;
+}
+
+h2 {
+    color: #782F40;
 }
 
 footer {
-    background-color: #CEB888;
-    color: #782F40;
-    padding: 10px 0;
+    background-color: #782F40;
+    color: #CEB888;
+    padding: 20px 0;
     text-align: center;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
