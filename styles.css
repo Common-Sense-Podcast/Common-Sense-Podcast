@@ -4,33 +4,58 @@ body {
     color: #CEB888; /* Florida State gold */
     margin: 0;
     padding: 0;
-    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 header {
     background-color: #CEB888;
     color: #782F40;
-    padding: 20px;
+    padding: 20px 0;
+    text-align: center;
 }
 
 main {
-    padding: 20px;
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.about p {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.host-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.host-info img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #CEB888;
+    margin-bottom: 20px;
 }
 
 h1, h2 {
     color: #CEB888;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    border: 5px solid #CEB888;
-}
-
 footer {
     background-color: #CEB888;
     color: #782F40;
-    padding: 10px;
+    padding: 10px 0;
+    text-align: center;
     position: fixed;
     width: 100%;
     bottom: 0;
