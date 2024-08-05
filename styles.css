@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #782F40; /* Florida State garnet */
+    color: #CEB888; /* Florida State gold */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #CEB888;
+    color: #782F40;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #CEB888;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #CEB888;
+}
+
+footer {
+    background-color: #CEB888;
+    color: #782F40;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
